@@ -78,3 +78,21 @@ A white-space: nowrap tulajdonság megakadályozza, hogy a szöveg az elemen bel
   background-color: #c9302c;
   border-color: #ac2925;
 }
+.btn-previous {
+  background-color: #fff;
+  color: black;
+  border-color: black;
+}
+.btn-previous:hover {
+  background-color: black;
+  color: #fff;
+}
+.btn-next {
+  background-color: #fff;
+  color: black;
+  border-color: black;
+}
+.btn-next:hover {
+  background-color: black;
+  color: #fff;
+}
