@@ -1,0 +1,25 @@
+/* The base of every button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/*
+A display: inline-block az egyik legfontosabb. Az anchor elemek megjelenítése alapértelmezetten inline, ami azt jelenti, hogy nem szabályozhatod a box-modell tulajdonságaikat (mint egyes padding és margin értékek). Ez a szabály ezt a viselkedést változtatja meg, lehetővé téve, hogy az elemeket gombbá gyúrjuk.
+A következő öt szabály (text-decoration, font-family, text-align, font-size és line-height) tipográfiával kapcsolatos.
+A padding ad a szövegnek lélegzetvételnyi helyet, így nem tűnik majd a gomb zsúfoltnak.
+A margin-bottom-ra vonatkozó szabály a gomb alatt teremt egy kis teret. Kisebb képernyőkön, ha egymás fölé rendeződnének a gombok, így nem érnek majd össze.
+A border és a border-radius tulajdonságok hozzák létre az átlátszó, lekerekített bordert. Jelenleg ez nem látszik, mert transparent értéket adtunk meg neki, de amint adunk ezeknek színt a kontextuális classok segítségével, megjelennek.
+A white-space: nowrap tulajdonság megakadályozza, hogy a szöveg az elemen belül új sorokba törhessen (ez nagyon hosszú gombfeliratoknál lehetne probléma).
+És végül a vertical-align: middle rendezi a gombot annak a sornak a vertikális közepére, amelyben éppen van.
+*/
