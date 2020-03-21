@@ -78,6 +78,8 @@ A white-space: nowrap tulajdonság megakadályozza, hogy a szöveg az elemen bel
   background-color: #c9302c;
   border-color: #ac2925;
 }
+
+/* Previous and next button additional css add*/
 .btn-previous {
   background-color: #fff;
   color: black;
